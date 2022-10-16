@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Lato:ital,wght@1,900&family=Nanum+Brush+Script&family=Nanum+Myeongjo:wght@700&display=swap');
+
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        right: 0px;
+        background: white;
+        width: 150px;
+        padding: 15px;
+    }
+
+    .tm-container-content { max-width: 870px; }
+    .tm-contact-form, .tm-address-col, .mapouter { max-width: 100%; }
+    .tm-people-row { max-width: 900px; }
+}
+
+@media (max-width: 767px) {
+    .tm-paging-col { flex-direction: column; }
+    .tm-paging { flex-wrap: wrap; }
+    .tm-about-img-text { max-width: 640px; }
+    .tm-about-2-col, .tm-about-3-col { margin-bottom: 50px; }
+}
+
+@media (max-width: 575px) {
+    .tm-container-content { max-width: 420px; }
+
+    .tm-search-form {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .tm-search-input {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    .tm-people-row { max-width: 420px; }
+}
+
+.btn-group{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 80px;
+    background-color: #F8F9FA;
+    font-family: 'Alkalami', serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Nanum Myeongjo', serif;
+    
+  }
+
+  .title{
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .explain{
+    font-size: 14px;
+  }
+
+  .img{
+    display: block; 
+    margin: 0 auto; 
+    background-color: black;
+  }
+
+  .card-text{
+    text-align: center;
+  }
+
+
+  
